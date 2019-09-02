@@ -4,8 +4,9 @@ export KERNEL_TOP=$ANDROID_ROOT/kernel/sony/msm-4.9
 export KERNEL_TMP=$ANDROID_ROOT/out/kernel-tmp
 
 # Cross Compiler
-export CROSS_COMPILE=../../prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
-export CROSS_COMPILE_ARM32=../../prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-
+export CROSS_COMPILE=$ANDROID_ROOT/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
+export CROSS_COMPILE_ARM32=$ANDROID_ROOT/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-
+
 # Mkdtimg tool
 export MKDTIMG=$ANDROID_ROOT/out/host/linux-x86/bin/mkdtimg
 # Build command
